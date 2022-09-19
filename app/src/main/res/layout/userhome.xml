@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserHome">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--        <GridLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:columnCount="4"-->
+<!--            android:paddingLeft="2dp"-->
+<!--            android:rowCount="3">-->
+<!--            android:paddingReft="2dp">-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/button"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Jan" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Feb" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Mar" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button5"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Apr" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button6"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="may" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button7"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="jun" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button8"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Jul" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button9"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Aug" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button10"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Sep" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button11"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Oct" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button12"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Nov" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button13"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Dec" />-->
+<!--        </GridLayout>-->
+
+        <EditText
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:text="PAYMENT STATUS" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:onClick="onBack"
+            android:text="Back" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

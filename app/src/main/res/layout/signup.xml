@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/sname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Name:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/scourse"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Course:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/susr"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="User Name:"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Password:"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/scp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Confirm Password:"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/scpy"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Payment:"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/bsignup"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:backgroundTint="#009688"
+            android:text="SIGN UP" />
+
+        <TextView
+            android:id="@+id/stv"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#00BCD4"
+            android:backgroundTint="#FFC107"
+            android:drawableTint="#FFC107"
+            android:foregroundTint="#00FFC107"
+            android:text="Back"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#9C27B0" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
